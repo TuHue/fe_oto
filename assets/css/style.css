@@ -338,6 +338,7 @@
 .form__select {
     width: 100%;
     font-size: 1.5rem;
+    background: none;
 }
 
 .form__select .form__select--option {

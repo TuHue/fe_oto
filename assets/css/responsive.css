@@ -234,4 +234,23 @@
         .ratings__item--date {
             font-size: 1rem;
         }
+        .home-3 {
+            width: 100%;
+        }
+        .from__search {
+            height: 50px;
+            border: 2px solid var(--black-2);
+            border-radius: 20px;
+        }
+        .col__search {
+            width: 100%;
+            height: 40px;
+            padding: 0;
+        }
+        .col__search::placeholder {
+            font-size: 1.25rem;
+        }
+        .btn--search i {
+            font-size: 2rem;
+        }
     }

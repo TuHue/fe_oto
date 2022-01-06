@@ -47,6 +47,12 @@ p {
     font-size: 1.5rem;
 }
 
+h5 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--blue-4);
+}
+
 .padding-1 {
     padding: 2rem 2%;
 }
@@ -171,4 +177,29 @@ p {
     font-weight: bold;
     color: var(--white-1);
     font-size: 1.75rem;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.tag--item {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    color: var(--blue-4);
+}
+
+.tag--item .tag--line {
+    margin: 1rem;
+}
+
+.tag--text--active {
+    color: var(--red-1);
+}
+
+.tag--text {
+    cursor: pointer;
 }

@@ -231,3 +231,8 @@
 .home-1 {
     position: relative;
 }
+
+.from {
+    display: none;
+    transition: all 0.8;
+}

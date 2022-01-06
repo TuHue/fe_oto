@@ -143,6 +143,19 @@
         .header {
             display: none;
         }
+        .footer-header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .footer-title {
+            font-size: 1.25rem !important;
+        }
+        .footer-1 {
+            width: 33%;
+        }
+        .footer-1__content img {
+            width: 100px;
+        }
         .home-1 {
             width: 100%;
             height: 70vh;

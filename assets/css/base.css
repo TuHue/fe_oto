@@ -7,6 +7,7 @@
     --black-1: #000000;
     --black-2: #c9c9c9;
     --black-3: #eeeeee;
+    --black-4: #888888;
     --red-1: #e21f26;
     --white-1: #ffffff;
 }
@@ -51,6 +52,7 @@ h5 {
     font-size: 4rem;
     text-transform: uppercase;
     color: var(--blue-4);
+    margin: 50px 0 0 0;
 }
 
 .padding-1 {

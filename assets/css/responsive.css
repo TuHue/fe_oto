@@ -98,6 +98,55 @@
         .detail-6_cars--item img {
             width: 200px;
         }
+        /* Detail Xetail */
+        .detail-4__top--content--left::before {
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+            content: "";
+            width: 60%;
+            height: 150px;
+            border: 2px solid var(--white-1);
+        }
+        .detail-4__extra {
+            color: var(--white-1);
+            margin-left: 10rem;
+        }
+        .detail-4__extra h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+        .detail-4__extra h2 {
+            width: 300px;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: var(--blue-4);
+            background-color: var(--white-1);
+            margin: 1rem 1rem 1rem 0;
+            font-weight: bold;
+        }
+        .detail-4__bottom--title h2 {
+            font-size: 4rem;
+        }
+        .detail-4__bottom--title p {
+            margin-top: 3rem;
+        }
+        .detail-4__bottom--title::before {
+            position: absolute;
+            content: "";
+            top: 25%;
+            left: 25%;
+            width: 400px;
+            height: 5px;
+            background-color: var(--white-1);
+        }
+        .detail-4__bottom img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 600px;
+        }
     }
     
     @media(min-width:740px) and (max-width:799px) {
@@ -290,6 +339,55 @@
         }
         .detail-6_cars--item img {
             width: 150px;
+        }
+        /* Detail Xetail */
+        .detail-4__top--content--left::before {
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+            content: "";
+            width: 60%;
+            height: 150px;
+            border: 2px solid var(--white-1);
+        }
+        .detail-4__extra {
+            color: var(--white-1);
+            margin-left: 10rem;
+        }
+        .detail-4__extra h1 {
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        .detail-4__extra h2 {
+            width: 200px;
+            font-size: 1.75rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: var(--blue-4);
+            background-color: var(--white-1);
+            margin: 1rem 1rem 1rem 0;
+            font-weight: bold;
+        }
+        .detail-4__bottom--title h2 {
+            font-size: 4rem;
+        }
+        .detail-4__bottom--title p {
+            margin-top: 3rem;
+        }
+        .detail-4__bottom--title::before {
+            position: absolute;
+            content: "";
+            top: 25%;
+            left: 35%;
+            width: 400px;
+            height: 5px;
+            background-color: var(--white-1);
+        }
+        .detail-4__bottom img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 600px;
         }
     }
     
@@ -573,5 +671,51 @@
         .detail-6_cars--item img {
             width: 150px;
             margin: 0 auto;
+        }
+        /* Deatil Xetail */
+        .detail-4__top--content--left::before {
+            position: absolute;
+            bottom: 0;
+            left: 15%;
+            content: "";
+            width: 60%;
+            height: 150px;
+            border: 2px solid var(--white-1);
+        }
+        .detail-4__extra {
+            color: var(--white-1);
+            margin-left: 5rem;
+        }
+        .detail-4__extra h1 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        .detail-4__extra h2 {
+            width: 200px;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            padding: 1rem;
+            color: var(--blue-4);
+            background-color: var(--white-1);
+            margin: 1rem 1rem 1rem 0;
+            font-weight: bold;
+        }
+        .detail-4__center--item {
+            display: block;
+        }
+        .detail-4__bottom--title h2 {
+            font-size: 2rem;
+        }
+        .detail-4__bottom--title p {
+            margin-top: 1.5rem;
+        }
+        .detail-4__bottom--title::before {
+            position: absolute;
+            content: "";
+            top: 25%;
+            left: 35%;
+            width: 200px;
+            height: 5px;
+            background-color: var(--white-1);
         }
     }

@@ -254,3 +254,21 @@
 .detail-4__center--content--left {
     margin: 40px;
 }
+
+.detail-5 {
+    background-color: var(--black-3);
+}
+
+.detail-5__title h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.detail-5__content-map {
+    width: 60%;
+    height: 400px;
+    background-color: var(--white-1);
+    margin: 30px auto;
+    padding: 30px;
+}

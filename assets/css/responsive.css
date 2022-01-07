@@ -33,6 +33,13 @@
         .detail-2__content--cart img {
             width: 100px !important;
         }
+        .detail-3__header h5 {
+            font-size: 2.5rem
+        }
+        .detail-3__tag .tags .tag--item .tag--text {
+            font-size: 1.25rem;
+            display: inline;
+        }
     }
     
     @media(min-width:740px) and (max-width:799px) {
@@ -143,6 +150,13 @@
         /* Detail */
         .detail-2__content--cart img {
             width: 80px !important;
+        }
+        .detail-3__header h5 {
+            font-size: 2.5rem
+        }
+        .detail-3__tag .tags .tag--item .tag--text {
+            font-size: 0.9rem;
+            display: inline;
         }
     }
     
@@ -323,5 +337,20 @@
         }
         .detail-2__content--cart img {
             width: 50px !important;
+        }
+        .detail-3__header h5 {
+            font-size: 2rem
+        }
+        .detail-3__header-actions--item {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+        }
+        .detail-3__tag .tags .tag--item .tag--text {
+            font-size: 0.6rem;
+            display: inline;
+            margin: 0.1em;
+        }
+        .detail-3__tag .tags .tag--item .tag--line {
+            display: none;
         }
     }

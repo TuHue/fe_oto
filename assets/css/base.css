@@ -455,3 +455,12 @@ h5 {
     background-size: cover;
     position: relative;
 }
+
+.tag--text--active::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 84%;
+    height: 2px;
+    background: var(--red-1);
+}

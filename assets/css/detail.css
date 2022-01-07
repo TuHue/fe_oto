@@ -94,3 +94,49 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.detail-3 {
+    background-color: var(--black-2);
+}
+
+.detail-3__header h5 {
+    color: var(--black-1);
+    text-align: center;
+}
+
+.detail-3__header-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.detail-3__header-actions--item {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    background-color: var(--black-1);
+    color: var(--white-1);
+    margin: 1rem;
+    border-radius: 30px;
+}
+
+.detail-3__header-actions--item--red {
+    background-color: var(--red-1);
+}
+
+.detail-3__header-actions--item--blue {
+    background-color: var(--blue-4);
+}
+
+.detail-3__tag .tags .tag--item {
+    color: var(--black-1);
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.detail-3__content {
+    width: 100%;
+    background-color: var(--white-1);
+    height: 100px;
+    border-radius: 3px;
+}

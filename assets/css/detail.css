@@ -271,4 +271,51 @@
     background-color: var(--white-1);
     margin: 30px auto;
     padding: 30px;
+    border: 2px solid var(--black-1)
+}
+
+.detail-6_cars {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-6_cars--item {
+    width: 25%;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.detail-6_cars--infor {
+    float: right;
+    position: relative;
+}
+
+.detail-6_cars--infor::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -200%;
+    width: 250px;
+    height: 1px;
+    background-color: var(--black-1);
+}
+
+.detail-6_cars--infor h2 {
+    font-size: 2rem;
+}
+
+.detail-6_cars--infor p {
+    font-size: 1.5rem;
+    opacity: 0.5;
+    text-align: right;
+}
+
+.detail-6_cars--item img {
+    width: 300px;
+}
+
+.detail-6_oto {
+    display: flex;
+    justify-content: center;
 }

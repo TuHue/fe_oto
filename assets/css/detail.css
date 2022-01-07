@@ -1,0 +1,96 @@
+/* Detail-1 */
+
+.detail-1 {
+    background-color: var(--blue-4);
+}
+
+.detail-1 p {
+    color: var(--black-4)
+}
+
+
+/* Detail-2 */
+
+.detail-2__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-2__top--name h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.detail-2__top--price h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.detail-2__top--price p {
+    text-align: right;
+}
+
+.detail-2__content--detail img {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.detail-2__content--detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.detail-2__content--detail p {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.detail-2__content--carts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail-2__content--cart {
+    padding: 1rem;
+    border: 2px solid var(--black-2);
+    margin: 1rem;
+}
+
+.detail-2__content--logo {
+    width: 210px;
+    border: 2px solid var(--black-1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.detail-2__logo {
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(to bottom right, var(--red-1), var(--blue-4));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.detail-2__logo img {
+    width: 20px;
+    height: 20px;
+}
+
+.detail-2__content--logo p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

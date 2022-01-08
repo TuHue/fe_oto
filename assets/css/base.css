@@ -584,3 +584,24 @@ h5 {
     font-weight: bold;
     text-align: center;
 }
+
+.news-promotion__item {
+    padding: 10px;
+    border-top: 1px solid var(--black-1);
+    margin: 20px 0;
+}
+
+.news-promotion__title {
+    font-size: 3rem;
+    color: var(--blue-4);
+    margin-bottom: 20px;
+}
+
+.news-promotion__item--title h5 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.news-promotion__item--date p {
+    float: right;
+}
